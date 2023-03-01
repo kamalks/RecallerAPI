@@ -23,4 +23,6 @@ ${ANALYTICS_ZOO_HOME}/bin/jupyter-with-zoo.sh \
     --total-executor-cores 4  \
     --executor-cores 4  \
     --executor-memory 32g
+    --executor-ram 32
+    --executor-cpu 64g
 ```
